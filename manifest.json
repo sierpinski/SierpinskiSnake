@@ -1,0 +1,109 @@
+{
+  "manifestVersion": 1,
+  "id": "sierpinski-snake",
+  "version": "0.0.6",
+  "name": "Snake",
+  "description": "Play Snake. (On the Arcade Hub)",
+  "publisher": "sierpinski",
+  "icons": {
+    "default": "images/snake.png"
+  },
+  "tags": [
+    "game"
+  ],
+  "galleryFlags": [
+	"Public"
+  ],
+  "content": {
+    "details": {
+      "path": "overview.md"
+    },
+    "license": {
+      "path": "license-terms.md"
+    }
+  },
+  "screenshots": [
+    {
+	  "path": "images/snakewelcome.png",
+      "path": "images/ScreenCapNav.png"
+    }
+  ],
+  "links": {
+    "home": {
+      "uri": "https://github.com/sierpinski/Blitz"
+    }
+  },
+  "branding": {
+    "color": "rgb(90, 86, 206)",
+    "theme": "dark"
+  },
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "contributions": [
+    {
+      "id": "Snake",
+      "type": "ms.vss-web.hub",
+      "description": "Play the game Snake.",
+      "targets": [
+        "ms-devlabs.galactic-dodge.arcade-hub-group"
+      ],
+      "properties": {
+        "name": "Snake",
+        "order": 99,
+        "uri": "main.html"
+      }
+    }
+  ],
+  "scopes": [
+    "vso.profile"
+  ],
+  "files": [
+    {
+      "path": "main.html",
+      "addressable": true
+    },
+    {
+      "path": "sdk/scripts",
+      "addressable": true
+    },
+	{
+      "path": "js",
+      "addressable": true
+    },
+	{
+      "path": "css",
+      "addressable": true
+    },
+	{
+      "path": "music/8-Bit-Mayhem.mp3",
+      "addressable": true
+    },
+	{
+      "path": "music/SynthChime1.mp3",
+      "addressable": true
+    },
+	{
+      "path": "music/PowerDown3.mp3",
+      "addressable": true
+    },
+    {
+      "path": "images/playingSnake.gif",
+      "addressable": true
+    },
+    {
+      "path": "images/snakewelcome.png",
+      "addressable": true
+    },
+    {
+      "path": "images/ScreenCapNav.png",
+      "addressable": true
+    },
+    {
+      "path": "images/snake.png",
+      "addressable": true
+    }
+  ]
+}

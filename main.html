@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Snake</title>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+	</head>
+	<body class="game">
+		<canvas id="canvas" tabindex="1" height="600" width="1000">
+			<p>Sorry, your browser doesn't support canvas. </p>
+		</canvas>
+		
+		<audio id="gamemusic">
+		  <source src="https://sierpinski.gallery.vsassets.io/_apis/public/gallery/publisher/sierpinski/extension/sierpinski-snake/0.0.5/assetbyname/music/8-Bit-Mayhem.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+		</audio>
+		<audio id="eatfoodsound">
+		  <source src="https://sierpinski.gallery.vsassets.io/_apis/public/gallery/publisher/sierpinski/extension/sierpinski-snake/0.0.5/assetbyname/music/SynthChime1.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+		</audio>
+		<audio id="deathsound">
+		  <source src="https://sierpinski.gallery.vsassets.io/_apis/public/gallery/publisher/sierpinski/extension/sierpinski-snake/0.0.5/assetbyname/music/PowerDown3.mp3" type="audio/mpeg">
+		  Your browser does not support the audio element.
+		</audio>
+		<script src="js/game.js"></script>
+		
+		<script src="js/VSS.SDK.js"></script>
+	    <script type="text/javascript">
+	    // Initialize the VSS sdk
+		VSS.init({ usePlatformScripts: true });
+
+		// Wait for the SDK to be initialized
+		VSS.ready(function () {
+	    require(["js/game"], function (items) { });
+        });
+		</script>
+	</body>
+</html>

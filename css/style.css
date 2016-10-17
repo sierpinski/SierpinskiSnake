@@ -1,0 +1,22 @@
+.game {
+	height: 620px;
+	margin: 0 auto;
+	margin-top: 64px;
+	overflow: inherit;
+	font-family: sans-serif;
+}
+
+html{
+	height: 620px;
+}
+
+#canvas{
+	border: 1px solid #000;
+	background: #000;
+	padding-left: 0;
+    padding-right: 0;
+	padding-top: 100;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
