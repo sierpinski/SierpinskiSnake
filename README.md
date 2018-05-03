@@ -1,16 +1,23 @@
 # Snake
-##Have some fun!
+## Have some fun!
 You work hard. Now, play the classic game Snake right in VSTS!
 
-##HUGE UPDATE!!! (Read more below.)
+## HUGE UPDATE!!! (Read more below.)
 
 Check it out:
 ![Screenshot of Snake gameplay.](https://sierpinski.gallery.vsassets.io/_apis/public/gallery/publisher/sierpinski/extension/sierpinski-snake/0.0.5/assetbyname/images/playingSnake.gif "Screenshot of Snake VSTS Extension Play")
 
-##INSTALL "Galactic Dodge"! You need it for the Arcade Hub!
+## INSTALL "Galactic Dodge"! You need it for the Arcade Hub!
 Now, this extension is located in the Arcade Hub. That Hub is created by the "Galactic Dodge extension". So, please install that extension, too! It's a fun game, too, so it's a win-win.
 
-##Features in October Surprise Update (0.0.2-0.0.6)
+![Screenshot of Snake welcome screen.](https://sierpinski.gallery.vsassets.io/_apis/public/gallery/publisher/sierpinski/extension/sierpinski-snake/0.0.5/assetbyname/images/snakewelcome.png "Screenshot of Snake Welcome Screen")
+
+## Source Code and Issue Reporting
+Check out the source and raise issues, submit ideas, contribute code here: [Snake Repo](https://github.com/sierpinski/SierpinskiSnake)
+
+## Now, go play Snake!
+
+## Features in October Surprise Update (0.0.2-0.0.6)
 New features:
 * Music and Sound effects. (Turned off by default.)
 * New Themes: Chess, Modern and Chaos (Original by default.)
@@ -22,10 +29,7 @@ New Commands:
 * Toggle On/Off Sound Effects at game start, when paused or game over: Press 's'
 * Change the theme which can affect colors, backgrounds and even the gameplay itself: Press 't'
 
-
-![Screenshot of Snake welcome screen.](https://sierpinski.gallery.vsassets.io/_apis/public/gallery/publisher/sierpinski/extension/sierpinski-snake/0.0.5/assetbyname/images/snakewelcome.png "Screenshot of Snake Welcome Screen")
-
-##Features In Last Update (0.0.1)
+## Features In First Release (0.0.1)
 Features:
 * A snake you can control with your keyboard.
 * Authentic Blocky Design, with colors!
@@ -35,8 +39,3 @@ Features:
 Prior Commands:
 * Pause and Start/Stop game: [Space bar]
 * Move: WASD or arrow keys
-
-##Source Code and Issue Reporting
-I will be adding the source to its own GitHub repo eventually. Until then, use my Blitz repo to report bugs: [Blitz GitHub repository](https://github.com/sierpinski/Blitz). Please open issues with the extension there so I can track them more easily.
-
-##Now, go play Snake!

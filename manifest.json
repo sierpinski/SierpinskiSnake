@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "sierpinski-snake",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "name": "Snake",
   "description": "Play Snake. (On the Arcade Hub)",
   "publisher": "sierpinski",
